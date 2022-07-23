@@ -17,7 +17,9 @@
             <Label Text="Orientation: " FontSize="Medium" />
             <Label Text="{Binding Orientation}" FontSize="Large" />
             <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}"
-                    />
+                    AutomationProperties.IsInAccessibleTree="true"
+                        AutomationProperties.Name="Get Location"
+                        AutomationProperties.HelpText="gets location from map"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
