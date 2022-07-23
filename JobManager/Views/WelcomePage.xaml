@@ -16,7 +16,8 @@
 
             <Label Text="Orientation: " FontSize="Medium" />
             <Label Text="{Binding Orientation}" FontSize="Large" />
-            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}" />
+            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
